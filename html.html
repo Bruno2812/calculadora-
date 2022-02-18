@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id = "numeros">
+          <p>Numero1: <input type="number" nome = "txtn1" id = "nu1"></p>
+          <p>Numero2: <input type="number" nome = "txtn2" id = "nu2"></p>
+          
+          <input type="radio" id="mult" name="fav_language" value=0>
+          <label for="html">Multiplicar</label><br>
+          <input type="radio" id="soma" name="fav_language" value=1>
+          <label for="css">Soma</label><br>
+          <input type="radio" id="sub" name="fav_language" value= 2>
+          <label for="javascript">Subtração</label><br>
+          <input type="radio" id="div" name="fav_language" value= 3>
+          <label for="javascript">Dividir</label>
+          
+          <p><input type="button" value="Calcular" onclick="Calcular()"></p>
+          
+          
+        </div>
+        <div id = "res">
+          
+        </div>
+      </section>
+      <footer><p>&copy; BrunoMoraes</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
